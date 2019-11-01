@@ -1,0 +1,22 @@
+{
+  "name": "@web-bee-ru/eslint-plugin",
+  "version": "0.1.0",
+  "description": "Our eslint config for projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "dev@web-bee.ru",
+  "license": "ISC",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-nuxt": "^0.1.5",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
