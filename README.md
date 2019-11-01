@@ -1,4 +1,4 @@
-# eslint-config-web-bee
+# @web-bee-ru/eslint-plugin
 
 ### devDependencies
 -   eslint
@@ -16,8 +16,8 @@ $ npm i --save-dev eslint eslint-config-airbnb-base eslint-import-resolver-nuxt 
 Available configs:
 ``` js
 extends: [
-    "vue-web-bee/base", // js only
-    "vue-web-bee/vue", // or use vue
-    "vue-web-bee/nuxt", // or use nuxt
+    "plugin:@web-bee-ru/base", // js only
+    "plugin:@web-bee-ru/vue", // or use vue
+    "plugin:@web-bee-ru/nuxt", // or use nuxt
 ],
 ```

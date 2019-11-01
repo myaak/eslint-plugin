@@ -1,6 +1,6 @@
 {
   "name": "@web-bee-ru/eslint-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Our eslint config for projects",
   "main": "index.js",
   "scripts": {
