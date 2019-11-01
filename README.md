@@ -1,5 +1,10 @@
 # @web-bee-ru/eslint-plugin
 
+## Install
+``` bash
+$ npm i --save-dev @web-bee-ru/eslint-plugin
+```
+
 ### devDependencies
 -   eslint
 -   eslint-config-airbnb-base
@@ -7,6 +12,7 @@
 -   eslint-plugin-import
 -   eslint-plugin-vue
 -   babel-eslint
+
 ``` bash
 # install devDependencies
 $ npm i --save-dev eslint eslint-config-airbnb-base eslint-import-resolver-nuxt eslint-plugin-import eslint-plugin-vue babel-eslint
