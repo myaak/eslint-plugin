@@ -1,6 +1,6 @@
 {
   "name": "@web-bee-ru/eslint-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Our eslint config for projects",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "keywords": [
     "eslint"
   ],
+  "repository": "web-bee-ru/eslint-plugin",
+  "homepage": "https://github.com/web-bee-ru/eslint-plugin",
   "author": "dev@web-bee.ru",
   "license": "ISC",
   "peerDependencies": {
