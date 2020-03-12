@@ -4,9 +4,6 @@ module.exports = {
     'plugin:vue/strongly-recommended',
   ],
   globals: {
-    'Vue': true,
-    'Vuex': true,
-    'VuelidateValidators': true,
   },
   settings: {
     'import/resolver': 'nuxt',

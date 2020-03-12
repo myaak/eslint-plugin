@@ -14,12 +14,6 @@ module.exports = {
     'airbnb-base',
   ],
   globals: {
-    '_': true,
-    '$': true,
-    'moment': true,
-    'momentRange': true,
-    'Math': true,
-    'qs': true,
   },
   rules: {
     'object-curly-newline': ['off'], // не понял глубокого смысла этого правила...
