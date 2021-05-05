@@ -3,14 +3,17 @@ module.exports = {
     require.resolve('./base'),
     'plugin:vue/strongly-recommended',
   ],
-  globals: {
-  },
-  settings: {
-    'import/resolver': 'nuxt',
-  },
   plugins: [
     'vue'
   ],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['~', './src/']],
+        extensions: ['.ts', '.js', '.tsx', '.jsx', '.vue'],
+      },
+    },
+  },
   rules: {
     'vue/max-attributes-per-line': ['off'],
     'vue/attribute-hyphenation': ['off'],
@@ -20,9 +23,8 @@ module.exports = {
   },
   overrides: [
     {
-      'files': ['*.vue'],
-      'rules': {
-        'indent': ['off'], // @NOTE: 'indent' и 'vue/script-indent' конкурируют, так что отключаем 'indent' для Vue файлов
+      files: ['*.vue'],
+      rules: {
         'vue/html-indent': ['error', 2, {
           alignAttributesVertically: false,
           closeBracket: 1,
