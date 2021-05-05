@@ -6,6 +6,14 @@ module.exports = {
   plugins: [
     'vue'
   ],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['~', './src/']],
+        extensions: ['.ts', '.js', '.tsx', '.jsx', '.vue'],
+      },
+    },
+  },
   rules: {
     'vue/max-attributes-per-line': ['off'],
     'vue/attribute-hyphenation': ['off'],

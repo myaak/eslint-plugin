@@ -8,6 +8,14 @@ module.exports = {
   plugins: [
     'react',
   ],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['~', './src/']],
+        extensions: ['.ts', '.js', '.tsx', '.jsx'],
+      },
+    },
+  },
   rules: {
     'quotes': ['error', 'single'],
 
