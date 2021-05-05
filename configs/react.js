@@ -32,7 +32,7 @@ module.exports = {
           'error',
           {
             cases: {
-                pascalCase: true,
+              pascalCase: true,
             },
           },
         ],

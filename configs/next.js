@@ -3,22 +3,6 @@ module.exports = {
     require.resolve('./react'),
   ],
   overrides: [
-    // TS/JS
-    {
-      files: ['src/**/*.ts', 'src/**/*.js'],
-      excludedFiles: ['src/types/generated/**/*.ts', 'src/types/generated/**/*.js'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              camelCase: true,
-              pascalCase: true,
-            },
-          },
-        ],
-      },
-    },
     // Components/Layouts
     {
       files: ['src/**/*.tsx', 'src/**/*.jsx'],
