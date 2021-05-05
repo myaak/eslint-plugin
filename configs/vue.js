@@ -23,7 +23,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.vue'],
+      files: ['src/**/*.vue'],
       rules: {
         'vue/html-indent': ['error', 2, {
           alignAttributesVertically: false,
@@ -33,6 +33,20 @@ module.exports = {
           baseIndent: 1,
           switchCase: 1,
         }],
+      },
+    },
+    // Components
+    {
+      files: ['src/**/*.vue', 'src/**/*.tsx', 'src/**/*.jsx'],
+      rules: {
+        'unicorn/filename-case': [
+          'error',
+          {
+            cases: {
+              pascalCase: true,
+            },
+          },
+        ],
       },
     },
   ],
