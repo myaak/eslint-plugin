@@ -17,8 +17,6 @@ module.exports = {
     },
   },
   rules: {
-    'quotes': ['error', 'single'],
-
     // @NOTE: We decided against prop validations
     'react/prop-types': ['off'],
 
