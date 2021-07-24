@@ -20,7 +20,6 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   settings: {
     'import/resolver': {
