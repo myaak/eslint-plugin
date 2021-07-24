@@ -3,7 +3,6 @@ module.exports = {
     require.resolve('./base'),
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'prettier/react',
   ],
   plugins: [
     'react',
