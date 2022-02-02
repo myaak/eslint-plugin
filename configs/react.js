@@ -51,5 +51,19 @@ module.exports = {
         ],
       },
     },
+    // React HOC components (withHOC)
+    {
+      files: ['src/**/With*.ts', 'src/**/with*.ts', 'src/**/With*.js', 'src/**/with*.js'],
+      rules: {
+        'unicorn/filename-case': [
+          'error',
+          {
+            cases: {
+              camelCase: true,
+            },
+          },
+        ],
+      },
+    },
   ],
 };
