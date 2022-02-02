@@ -64,9 +64,22 @@ module.exports = {
     'no-else-return': ['off'],
     'no-lonely-if': ['off'],
 
-    'semi': ['error', 'always'],
+    'semi': ['off'],
     'comma-dangle': ['error', 'always-multiline'],
     'brace-style': ['off', 'stroustrup', { allowSingleLine: true }],
+
+    // @NOTE: TS
+    '@typescript-eslint/semi': ['error', 'always'],
+    '@typescript-eslint/member-delimiter-style': ['error', {
+      multiline: {
+        delimiter: 'semi',
+        requireLast: true,
+      },
+      singleline: {
+        delimiter: 'semi',
+        requireLast: false,
+      },
+    }],
 
     // @NOTE: Too TS
     '@typescript-eslint/ban-types': ['off'], // @TODO: Disable only baning {}
