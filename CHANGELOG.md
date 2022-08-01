@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.3](https://github.com/web-bee-ru/eslint-plugin/compare/v0.6.2...v0.6.3) (2022-08-01)
+
+
+### Bug Fixes
+
+* @typescript-eslint/eslint-plugin ([fe424c7](https://github.com/web-bee-ru/eslint-plugin/commit/fe424c7b85db48b8db6032216dd06b08ecf9d814))
+
 ### 0.6.2 (2022-02-02)
 
 
