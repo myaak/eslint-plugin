@@ -12,7 +12,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'prettier', 'unicorn'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'prettier', 'unicorn'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
