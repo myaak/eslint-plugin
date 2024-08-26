@@ -29,5 +29,20 @@
     "eslint-plugin-unicorn": "^29.0.0",
     "eslint-plugin-vue": "^7.9.0",
     "standard-version": "^9.3.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.x",
+    "@typescript-eslint/parser": "^3.8.x",
+    "eslint": "^7.0.0 || ^8.0.0",
+    "eslint-config-prettier": "^8.3.x",
+    "eslint-import-resolver-alias": "^1.1.x",
+    "eslint-import-resolver-node": "^0.3.x",
+    "eslint-import-resolver-nuxt": "^1.0.x",
+    "eslint-plugin-import": "^2.22.x",
+    "eslint-plugin-prettier": "^3.4.x",
+    "eslint-plugin-react": "^7.20.x",
+    "eslint-plugin-react-hooks": "^4.1.x",
+    "eslint-plugin-unicorn": "^29.0.x",
+    "eslint-plugin-vue": "^7.9.x"
   }
 }
